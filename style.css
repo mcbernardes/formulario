@@ -1,0 +1,68 @@
+  /* Estilo geral do formulário */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #7ea2f1;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilos para os campos de entrada */
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  textarea,
+  select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #928c8c;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  /* Estilos para o botão de envio */
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #091477;
+    color: rgb(255, 238, 238);
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #577bf0;
+  }
+  h2 {
+    color: #000000; 
+    margin-bottom: 2%;    
+  }
+
+button[onclick="showForm()"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #091477;
+    color: rgb(255, 238, 238);
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}

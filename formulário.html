@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Preferências de Animais</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  
+  </style>
+</head>
+<body>
+  <form>
+   <h2>login</h2>
+        
+        <input type="Nome completo" id="Nome completo" name="Nome completo" value="Nome completo">
+        <label for="Nome completo"></label><br>
+        <input type="Data" id="Data" name="Data" value="Data">
+        <label for="Data"></label><br>
+        <input type="email" id="email" name="email" value="email">
+        <label for="email"></label><br>
+        <input type="Senha" id="Senha" name="Senha" value="Senha">
+        <label for="Senha"></label><br>
+        <button onclick="showForm()">Enviar</button>
+       
+    <div class="form-group">
+        <h2>coloque os dados do seu pet</h2>
+      <label for="name">Nome do Animal:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="species">Espécie:</label>
+      <input type="text" id="species" name="species" required>
+    </div>
+
+    <div class="form-group">
+      <label>Tipo de Animal:</label>
+      <input type="radio" id="type-mammal" name="animal-type" value="mammal" required>
+      <label for="type-mammal">Mamífero</label>
+      <input type="radio" id="type-bird" name="animal-type" value="bird" required>
+      <label for="type-bird">Ave</label>
+      <input type="radio" id="type-reptile" name="animal-type" value="reptile" required>
+      <label for="type-reptile">Réptil</label>
+      <input type="radio" id="type-amphibian" name="animal-type" value="amphibian" required>
+      <label for="type-amphibian">Anfíbio</label>
+    </div>
+
+    <div class="form-group">
+      <label for="habitat">Habitat:</label>
+      <select id="habitat" name="habitat" required>
+        <option value="">Selecione o habitat</option>
+        <option value="terrestrial">Terrestre</option>
+        <option value="aquatic">Aquático</option>
+        <option value="arboreal">Arbóreo</option>
+        <option value="amphibious">Anfíbio</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Características:</label>
+      <input type="checkbox" id="trait-furry" name="traits[]" value="furry">
+      <label for="trait-furry">Peludo</label>
+      <input type="checkbox" id="trait-feathered" name="traits[]" value="feathered">
+      <label for="trait-feathered">Emplumado</label>
+      <input type="checkbox" id="trait-scales" name="traits[]" value="scales">
+      <label for="trait-scales">Escamas</label>
+      <input type="checkbox" id="trait-slimy" name="traits[]" value="slimy">
+      <label for="trait-slimy">Pegajoso</label>
+    </div>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
